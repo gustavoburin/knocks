@@ -44,7 +44,7 @@ export default function WeekHub({ params }: { params: { week: string } }) {
         <SectionCard title="Week Report">
           <div
             className="h-40 rounded-xl mb-4 border border-bord"
-            style={{ background: `linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0)), url(${process.env.NEXT_PUBLIC_BASE_PATH}/img/weekreportcover.jpg) center/cover` }}
+            style={{ background: `linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0)), url(/img/weekreportcover.jpg) center/cover` }}
           />
           {MOCK_WEEK_REPORT.body.map((p, i) => (
             <p key={i} className="text-[15px] leading-relaxed text-ink mb-3 last:mb-0">{p}</p>
