@@ -1,9 +1,9 @@
 import { Team, Player, CoachNote, BoxScore } from "./types";
 
 export const MOCK_TEAMS: Team[] = [
-  { id: "PHX", name: "Phoenix Fury", city: "Phoenix", mascot: "Fury", colors: { primary: "#CC2200", secondary: "#1A1A1A" }, image: "/img/PHX.jpg" },
-  { id: "MIN", name: "Minneapolis Frost", city: "Minneapolis", mascot: "Frost", colors: { primary: "#A8D8EA", secondary: "#FFFFFF" }, image: "/img/MIN.jpg" },
-  { id: "NSH", name: "Nashville Wolves", city: "Nashville", mascot: "Wolves", colors: { primary: "#5C4D8A", secondary: "#C0C0C0" }, image: "/img/NSH.jpg" },
+  { id: "PHX", name: "Phoenix Fury", city: "Phoenix", mascot: "Fury", colors: { primary: "#CC2200", secondary: "#1A1A1A" }, image: process.env.NEXT_PUBLIC_BASE_PATH + "/img/PHX.jpg" },
+  { id: "MIN", name: "Minneapolis Frost", city: "Minneapolis", mascot: "Frost", colors: { primary: "#A8D8EA", secondary: "#FFFFFF" }, image: process.env.NEXT_PUBLIC_BASE_PATH + "/img/MIN.jpg" },
+  { id: "NSH", name: "Nashville Wolves", city: "Nashville", mascot: "Wolves", colors: { primary: "#5C4D8A", secondary: "#C0C0C0" }, image: process.env.NEXT_PUBLIC_BASE_PATH + "/img/NSH.jpg" },
   { id: "DET", name: "Detroit Iron", city: "Detroit", mascot: "Iron", colors: { primary: "#4A4A4A", secondary: "#1A1A1A" } },
 ];
 
