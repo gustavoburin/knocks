@@ -1,0 +1,132 @@
+{
+  "league": "Knocks Football League",
+  "teams": [
+    {
+      "id": "PHX",
+      "name": "Phoenix Fury",
+      "city": "Phoenix",
+      "mascot": "Fury",
+      "colors": {
+        "primary": "#CC2200",
+        "secondary": "#1A1A1A"
+      }
+    },
+    {
+      "id": "MIN",
+      "name": "Minneapolis Frost",
+      "city": "Minneapolis",
+      "mascot": "Frost",
+      "colors": {
+        "primary": "#A8D8EA",
+        "secondary": "#FFFFFF"
+      }
+    },
+    {
+      "id": "NSH",
+      "name": "Nashville Wolves",
+      "city": "Nashville",
+      "mascot": "Wolves",
+      "colors": {
+        "primary": "#5C4D8A",
+        "secondary": "#C0C0C0"
+      }
+    },
+    {
+      "id": "DET",
+      "name": "Detroit Iron",
+      "city": "Detroit",
+      "mascot": "Iron",
+      "colors": {
+        "primary": "#4A4A4A",
+        "secondary": "#1A1A1A"
+      }
+    }
+  ],
+  "positions": {
+    "offense": [
+      {
+        "id": "QB",
+        "name": "Quarterback",
+        "description": "O cérebro. Lança a bola pros recebedores.",
+        "attributes": ["Arm Power", "Accuracy", "Poise"]
+      },
+      {
+        "id": "RB",
+        "name": "Running Back",
+        "description": "Corre com a bola. Precisa ser rápido e enxergar buracos.",
+        "attributes": ["Speed", "Vision", "Toughness"]
+      },
+      {
+        "id": "WR",
+        "name": "Wide Receiver",
+        "description": "Corre rotas e pega passes do QB.",
+        "attributes": ["Speed", "Hands", "Route Running"]
+      },
+      {
+        "id": "TE",
+        "name": "Tight End",
+        "description": "Híbrido: bloqueia e também pega passes.",
+        "attributes": ["Strength", "Hands", "Blocking"]
+      },
+      {
+        "id": "OL",
+        "name": "Offensive Line",
+        "description": "Muralha que protege o QB. Ninguém lembra deles até falharem.",
+        "attributes": ["Strength", "Technique", "Anchor"]
+      }
+    ],
+    "defense": [
+      {
+        "id": "DL",
+        "name": "Defensive Line",
+        "description": "Avança pra derrubar o QB ou parar a corrida.",
+        "attributes": ["Power", "Motor", "Speed"]
+      },
+      {
+        "id": "LB",
+        "name": "Linebacker",
+        "description": "O coringa. Cobre passe, para corrida, faz de tudo.",
+        "attributes": ["Tackling", "Coverage", "Instinct"]
+      },
+      {
+        "id": "CB",
+        "name": "Cornerback",
+        "description": "Gruda no WR adversário. Precisa ser rápido e esperto.",
+        "attributes": ["Coverage", "Ball Skills", "Speed"]
+      },
+      {
+        "id": "S",
+        "name": "Safety",
+        "description": "Última linha de defesa. Lê a jogada de longe e fecha.",
+        "attributes": ["Coverage", "Tackling", "Range"]
+      }
+    ],
+    "special_teams": [
+      {
+        "id": "K",
+        "name": "Kicker",
+        "description": "Chuta field goals e pontos extras.",
+        "attributes": ["Leg Power", "Accuracy", "Clutch"]
+      },
+      {
+        "id": "P",
+        "name": "Punter",
+        "description": "Chuta longe quando o ataque não consegue avançar.",
+        "attributes": ["Leg Power", "Hang Time", "Accuracy"]
+      }
+    ]
+  },
+  "core_loop": {
+    "initial_roster": 65,
+    "final_roster": 53,
+    "preseason_rounds": 4,
+    "round_flow": [
+      "Revisar roster",
+      "Cortar jogadores",
+      "Simular jogo",
+      "Ver highlights",
+      "Evento surpresa",
+      "Próxima rodada"
+    ]
+  }
+}
